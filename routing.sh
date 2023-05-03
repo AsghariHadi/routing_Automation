@@ -80,7 +80,7 @@ sudo ip route replace default via 192.168.20.1
 sudo ip route append default via 192.168.30.1
 else
   echo "you are a Proxy"
-sudo ip route replace default via 192.168.40.1
+sudo ip route replace default via 192.168.50.1
 #echo $netroute_1
 #echo $netroute_2
 #echo $route_to_main_proxy
